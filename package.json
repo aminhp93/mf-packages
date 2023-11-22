@@ -1,6 +1,6 @@
 {
   "name": "mf-packages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mf package",
   "author": "",
   "license": "UNLICENSED",
@@ -89,6 +89,6 @@
     ]
   },
   "engines": {
-    "node": ">=20.9.x"
+    "node": ">=18.x"
   }
 }
