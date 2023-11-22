@@ -1,0 +1,15 @@
+{
+  "template": "https://bitbucket.org/teampiscadacloud/piscada-react-cruft.git",
+  "commit": "f03a6ed6cbd6c6d8b1ea678006122680e3209d04",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "foresight-common-ui-components",
+      "author": "Piscada",
+      "project_url": "",
+      "includeReact": "Y",
+      "_template": "https://bitbucket.org/teampiscadacloud/piscada-react-cruft.git"
+    }
+  },
+  "directory": null
+}
