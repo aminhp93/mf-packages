@@ -13,29 +13,5 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint"],
-  "rules": {
-    "prefer-const": "error",
-    "no-restricted-imports": [
-      "error",
-      {
-        "paths": [
-          {
-            "name": "@mui/icons-material",
-            "message": "no named imports. Please use full path imports instead"
-          },
-          {
-            "name": "@mui/material",
-            "message": "no named imports. Please use full path imports instead"
-          }
-        ],
-        "patterns": [
-          {
-            "group": ["@mui/*/*/*"],
-            "message": "3rd level imports are disallowed. Use 1st or 2nd level imports instead. Ref: https://mui.com/material-ui/guides/minimizing-bundle-size/"
-          }
-        ]
-      }
-    ]
-  }
+  "plugins": ["react", "@typescript-eslint"]
 }
