@@ -175,4 +175,4 @@ export const SettingsProvider = ({ children, pageSettings }: SettingsProviderPro
   );
 };
 
-export const SettingsConsumer = SettingsContext.Consumer;
+export const SettingsConsumer: any = SettingsContext.Consumer;
