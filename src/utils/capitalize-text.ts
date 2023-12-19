@@ -9,5 +9,5 @@ export const capitalizeText = (text: string): string => {
     capitalizedText += `${word[0].toUpperCase()}${word.slice(1)} `;
   });
 
-  return capitalizedText + 11234;
+  return capitalizedText + 112346;
 };

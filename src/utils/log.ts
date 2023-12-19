@@ -1,3 +1,3 @@
 export const log = () => {
-  return "hello log 2";
+  return "hello log 56";
 };

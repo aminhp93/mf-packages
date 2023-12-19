@@ -10,14 +10,16 @@ const Button = (theme: Theme) => {
       styleOverrides: {
         root: {
           fontWeight: 500,
-          borderRadius: 5,
+          borderRadius: 6,
           lineHeight: 1.71,
           letterSpacing: "0.3px",
           padding: `${theme.spacing(1.875, 3)}`,
+          hello: "test",
+          backgroundColor: "#FFA500",
         },
         contained: {
           // red color as hex
-          backgroundColor: "#FFA500",
+          // backgroundColor: "#FFA500",
 
           boxShadow: theme.shadows[3],
           padding: `${theme.spacing(1.875, 5.5)}`,
